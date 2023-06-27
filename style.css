@@ -116,18 +116,12 @@ p{
 }
 
 @media (max-width: 400px){
-    .root{
-        height: 100vh;
-        width: 100vw;
-    }
     .product-card{
         flex-direction: column;
-        margin: 2rem 1rem;
     }
     
     .product-image-mobile{
         display: contents;
-        flex-basis: 50%;
     }
     .product-image-mobile img{
         border-radius: 10px 10px 0 0;
