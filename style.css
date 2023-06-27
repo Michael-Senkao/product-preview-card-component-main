@@ -118,6 +118,7 @@ p{
 @media (max-width: 400px){
     .product-card{
         flex-direction: column;
+        flex-basis: 100%;
     }
     
     .product-image-mobile{
