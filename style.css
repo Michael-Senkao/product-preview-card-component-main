@@ -123,9 +123,6 @@ p{
         flex-direction: column;
         margin: 2rem 1rem;
     }
-    .product-card > *{
-        max-width: 100%;
-    }
     
     .product-image-mobile{
         display: contents;
