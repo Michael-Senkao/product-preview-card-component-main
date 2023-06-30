@@ -116,8 +116,8 @@ p{
 
 @media (max-width: 400px){
     .product-card{
-        grid-template-columns: 100%;
-        grid-template-rows: 40% 60%;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
         margin: 2rem 1rem;
     }
     .product-image-mobile{
