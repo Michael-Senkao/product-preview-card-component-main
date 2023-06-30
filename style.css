@@ -44,8 +44,7 @@ p{
 }
 
 .product-card{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
     flex-basis: 500px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
@@ -114,12 +113,10 @@ p{
     cursor: pointer;
 }
 
-@media (max-width: 400px){
+@media (max-width: 375px){
     .product-card{
-        max-height: 100vh;
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1.5fr;
-        margin: 2rem 1rem;
+        flex-direction: column;
+        margin: 0 1rem;
     }
     .product-image-mobile{
         display: block;
