@@ -118,7 +118,7 @@ p{
     .product-card{
         max-height: 100vh;
         grid-template-columns: auto;
-        grid-template-rows: auto auto;
+        grid-template-rows: 1fr 1.5fr;
         margin: 2rem 1rem;
     }
     .product-image-mobile{
